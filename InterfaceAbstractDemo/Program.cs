@@ -11,7 +11,7 @@ using InterfaceAbstractDemo.Entities;
 
 
 BaseCustomerManager customerManager = new StarbucksCustomerManager(new MernisServiceAdapter());
-customerManager.Save(new Customer { DateOfBirth = new DateTime(2002, 3, 17), FirstName = "Burcu", LastName = "Taş", Id = 1, NationalityId = "43312977264" });
+customerManager.Save(new Customer { DateOfBirth = new DateTime(2002, 3, 17), FirstName = "Burcu", LastName = "Taş", Id = 1, NationalityId = "1234567890" });
 
 
 //Program 'MernisServiceAdapter.cs' projesinde hata veriyo ama engin hocanın yaptıklarını uyguladım.
